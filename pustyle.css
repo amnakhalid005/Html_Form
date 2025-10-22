@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 20px;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 120px;
+    height: auto;
+}
+h2{
+   margin-top: 50px; 
+}
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    
+}
+
+td {
+    padding: 10px;
+    width: 50%;
+    vertical-align: top;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+input, select {
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+
+
+.table-border {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+/* Hostel Section Styles */
+.hostel-section {
+    border: 2px solid #00597c; 
+    padding: 10px;
+    border-radius: 5px;
+    background: #f9f9f9; 
+    margin-top: 15px;
+    
+}
+
+.label-bold {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.notice-text {
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.warning-box {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.Ncc{
+    border: 2px solid #00597c; 
+    padding: 10px;
+    border-radius: 5px;
+    background: #f9f9f9; 
+    margin-top: 15px;
+}
+.reg{
+    border: 2px solid #00597c; 
+    padding: 10px;
+    border-radius: 5px;
+    background: #f9f9f9; 
+    margin-top: 15px;
+}
+.personal{
+    border: 2px solid #00597c; 
+    padding: 10px;
+    border-radius: 5px;
+    background: #f9f9f9; 
+    margin-top: 15px;
+}

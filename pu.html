@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punjab University Admission Form</title>
+    <link rel="stylesheet" href="./css/pustyle.css">
+</head>
+<body>
+    <div class="container">
+
+                <div class="logo">
+                    <img src="https://seeklogo.com/images/U/university-of-the-punjab-logo-7039576D54-seeklogo.com.png" alt="" width="">
+                    <h2 style="align-items: right;"><span style="color: rgb(80, 79, 79);">UNIVERSITY OF THE PUNJAB</span><br> <span style="color: rgb(44, 44, 88);">ONLINE ADMISSIONS</span></h2>
+                </div>
+                <h5 style="color: red;">**Fields are Required.</h5>
+                <h5 style="color: red;">**Your Picture must be in <em><b>(jpg, png, gif)</b></em> format & recent photograph having blue background.</h5>
+                <h5 style="color: red;">**Enter your correct personal email address, further correspondance will be through email.</h5>
+                   
+        <form action="post" method="">
+            <table >
+                <tr>
+                    <td>
+                        <label for="cnic"><span style="color: red;">*</span>CNIC / Form-B No. (XXXXX-XXXXXXX-X)</label>
+                        <input type="text" id="cnic" name="cnic" placeholder="Your CNIC / Form-B No" required>
+                    </td>
+                    <td>
+                        <label for="retype-cnic"><span style="color: red;">*</span>Re-Type CNIC / Form-B No. (XXXXX-XXXXXXX-X)</label>
+                        <input type="text" id="retype-cnic" name="retype_cnic" placeholder="CNIC / Form-B NO" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="name"><span style="color: red;">*</span>Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </td>
+                    <td>
+                        <label for="photo"><span style="color: red;">*</span>Photograph (Max: 200KB)</label>
+                        <input type="file" id="photo" name="photo" accept="image/png, image/jpeg, image/gif" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="father-name"><span style="color: red;">*</span>Father Name</label>
+                        <input type="text" id="father-name" name="father_name" placeholder="Father's Name" required>
+                    </td>
+                    <td>
+                    <label for="father-cnic"><span style="color: red;">*</span>Father CNIC</label>
+                    <input type="text" id="father-cnic" name="father_cnic" placeholder="XXXXX-XXXXXXX-X">
+                    </td>  
+                    
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="occupation"><span style="color: red;">*</span>Father Gaurdian/Occupation</label>
+                        <input type="text" id="Father-occup" placeholder="Father's Occupation">
+                    </td>
+                    <td>
+                        <label for="monthly-income"><span style="color: red;">*</span>Family Monthly Income</label>
+                        <input type="text" name="Income" id="income" placeholder="Family's Income">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gender"><span style="color: red;">*</span>Gender</label>
+                        <select id="gender" name="gender" required>
+                            <option value="">Select Gender</option>
+                            <option value="M">Male</option>
+                            <option value="F">Female</option>
+                            <option value="C">Cross Gender</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="dob"><span style="color: red;">*</span>Date of Birth (DD/MM/YYYY)</label>
+                        <input type="date" id="dob" name="dob" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="religion"><span style="color: red;">*</span>Religion</label>
+                        <select id="religion" name="religion" required>
+                            <option value="Islam">Islam</option>
+                            <option value="Christianity">Christianity</option>
+                            <option value="Hinduism">Hinduism</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </td>
+                
+                <td>
+                    <label for="Hafiz-e-quran"><span style="color: red;">*</span>Hafiz-e-quran</label>
+                    <select>
+                        <option value="">-----Select----</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>    
+                </td>
+                </tr>
+                    <td>
+                        <label for="blood-group"><span style="color: red;">*</span>Blood Group</label>
+                        <select id="blood-group" name="blood_group">
+                            <option value="">Select Blood Group</option>
+                            <option value="A+">A+</option>
+                            <option value="A-">A-</option>
+                            <option value="B+">B+</option>
+                            <option value="B-">B-</option>
+                            <option value="O+">O+</option>
+                            <option value="O-">O-</option>
+                            <option value="AB+">AB+</option>
+                            <option value="AB-">AB-</option>
+                        </select>
+                    </td>
+
+                    <td>
+                        <label for="Martial status"><span style="color: red;">*</span>Marital Status</label>
+                        <select>
+                            <option value="">----Select Marital Status----</option>
+                            <option value="A+">Married</option>
+                            <option value="A-">Single</option>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="color:red; font-size: 15px; ">In case of Female Applicant, contact no of Father/Guardian can be entered in Mobile No. field.</td>
+                </tr>
+             <tr>
+                <td>
+                    <label for="mobileno"><span style="color: red;">*</span>Mobile No</label>
+                    <input type="text" placeholder="Your contact no here">
+                    </td> 
+                    <td>
+                        <label for="gaurdianno"><span style="color: red;">*</span>Gaurdian NO</label>
+                        <input type="text" placeholder="Your Gaurdian NO here">
+                        </td> 
+             </tr>   
+             <tr>
+                <td>
+                    <label for="email"><span style="color: red;">*</span>E-mail Address</label>
+                    <input type="email" placeholder="Your Email Address">
+                </td>
+                <td>
+                    <label for=""><span style="color: red;">*</span>Nationality</label>
+                    <select id="country">
+                        <option value="">Pakistani</option>
+                        <option value="amer">America</option>
+                        <option value="UK">UK</option>
+                        <option value="omani">Omani</option>
+                        <option value="nepal">Nepali</option>
+                        <option value="Naur">Nauran</option>
+                        <option value="Qatar">Qatari</option>
+                        <option value="portugal">Poutagese</option>
+                        <option value="palest">Palestine</option>
+                    </select>
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    <label for="province"><span style="color: red;">*</span>Province</label>
+                    <select id="province">
+                        <option value="punj">Punjab</option>
+                        <option value="sind">Sindh</option>
+                        <option value="kpk">Khyber Pakhtun Khawan</option>
+                        <option value="isl">Islamabad</option>
+                        <option value="balo">Balochistan</option>
+                        <option value="gb">Gilgit Baltistan</option>
+                        <option value="kash">Azad Jammu and Kashmir</option>
+                        <option value="for">Foreigner</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="domi"><span style="color: red;">*</span>Domicile District</label>
+                    <select name="domi">
+                        <option value="">----Select----</option>
+                    </select>
+                </td>
+             </tr>
+             <tr>
+              
+                <td>
+                    <label for=""><span style="color: red;">*</span>Permanent Address</label>
+                    <input type="text" placeholder="Enter Your permanent Address"> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for=""><span style="color: red;">*</span>Postal Address</label>
+                    <input type="text" placeholder="Enter your postal address">
+                </td>
+            </tr>
+               
+               
+        </table> 
+        <fieldset class="hostel-section">
+                <input type="checkbox" style="width: 10px; height: 10px;">
+                Check this box, only if you want to avail hostel facilities
+                
+        
+            <label class="label-bold">Hostel Required:</label>
+            <select id="hostelRequired">
+                <option>-- Select --</option>
+            </select>
+        
+            <p class="notice-text">
+                "Due to non-availability of Punjab University Hostel seats, the Hostel facility is <strong>NOT</strong> being offered for the newly admitted students of MS/M.Phil & Ph.D programs <strong>[Spring-2025]</strong>."
+            </p>
+        
+            <div class="warning-box">
+                (Furthermore, the hostel facility will be provided only to the admitted students of Regular/Morning programs subject 
+                to the availability of rooms/space as stated above. Moreover, hostel allotment will be made purely on merit basis.)
+            </div>
+        </fieldset>
+        
+         <fieldset class="Ncc">
+            <input type="checkbox" style="width: 10px; height: 10px;">
+            Check this box only if you have done NCC training
+            <label for="">NCC Training</label>
+            <select>
+                <option value="">-----Select----</option>
+            </select>
+         </fieldset>
+
+
+
+         <fieldset class="reg">
+            <input type="checkbox" style="width: 10px; height: 10px;">
+            this box only if you have already register for the University Of the Punjab
+            <label for="">PU Registeration</label>
+            <select>
+                <option value="">-----Select----</option>
+            </select>
+         </fieldset>
+         <fieldset class="personal">
+            <input type="checkbox" style="width: 10px; height: 10px;">
+            Check this box only if you are a special person & Fill in below Details
+            <label for="">Issue Athourity Of Disability</label>
+            <input type="text" placeholder="issue athourity here">
+            <table>
+                <tr>
+                    <td>
+                        <label for="">Certificate Refrence No</label>
+                        <input type="text" placeholder="Certificate Refrence no here">
+                    </td>
+                    <td>
+                        <label for="">Certificate Issuance Date</label>
+                        <input type="text" placeholder="certificate issuance date here">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Disability Type</label>
+                        <select>
+                            <option value="">-----Select----</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="">Supportive Device</label>
+                        <select>
+                            <option value="">-----Select----</option>
+            
+                        </select>
+                    </td>
+                </tr>
+            </table>
+         </fieldset>
+        <a href="#">     
+            <button style="background-color: rgb(54, 204, 54); border-radius: 20px solid white; padding: 5px; color: white; margin-top: 5px; text-decoration: none; align-items: center;">Save & Proceed</button>
+        </a>    
+        </form>
+</div>
+</body>
+</html>
